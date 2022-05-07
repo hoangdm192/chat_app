@@ -132,7 +132,7 @@
         android:layout_width="wrap_content"
         android:layout_height="17dp"
         android:text="Đăng ký ngay"
-        android:textColor="#4356B4"
+       android:textColor="@color/color_4356B4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/chuaTK" />
 
