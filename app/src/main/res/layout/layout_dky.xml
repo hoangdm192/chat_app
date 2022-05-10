@@ -20,137 +20,146 @@
         android:id="@+id/dky"
         android:layout_width="118dp"
         android:layout_height="38dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="48dp"
         android:text="@string/register"
         android:textColor="#4356B4"
         android:textSize="32sp"
+        android:fontFamily="@font/Lato_Regular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back" />
 
     <TextView
+        android:id="@+id/name"
         android:layout_width="73dp"
         android:layout_height="17dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="211dp"
+        android:layout_marginTop="61dp"
         android:scrollbarSize="14dp"
-        android:text="Họ và Tên"
+        android:text="@string/register2"
         android:textColor="#999999"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/dky" />
 
     <EditText
+        android:id="@+id/awesome_Edittext"
         android:layout_width="367dp"
         android:layout_height="44dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="235dp"
-        android:drawableRight="@drawable/ic_man"
-        android:hint="Awesome Chat"
+        android:layout_marginStart="25dp"
+        android:drawableEnd="@drawable/ic_man"
+        android:hint="@string/register19"
         android:textColor="@color/color_000000"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/name" />
 
     <TextView
+        android:id="@+id/mail_text"
         android:layout_width="42dp"
         android:layout_height="17dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="308dp"
-        android:text="Email"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/register3"
         android:textColor="#999999"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/awesome_Edittext" />
 
     <EditText
+        android:id="@+id/email_Edittext"
         android:layout_width="367dp"
         android:layout_height="44dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="325dp"
-        android:drawableRight="@drawable/ic_vector2"
-        android:hint="awesomechat@gmail.com"
+        android:layout_marginStart="25dp"
+        android:drawableEnd="@drawable/ic_email"
+        android:hint="@string/register18"
+        android:textColor="@color/color_000000"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/mail_text" />
 
     <TextView
+        android:id="@+id/password_text"
         android:layout_width="73dp"
         android:layout_height="17dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="405dp"
-        android:text="Mật khẩu"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/register4"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/email_Edittext" />
 
     <EditText
+        android:id="@+id/pass_Edittext"
         android:layout_width="367dp"
         android:layout_height="44dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="422dp"
-        android:drawableRight="@drawable/ic_vector__2_"
-        android:hint="**********"
+        android:layout_marginStart="25dp"
+        android:drawableEnd="@drawable/ic_key"
+        android:hint="@string/register20"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/password_text" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="17dp"
+        android:checked="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_Edittext" />
 
     <TextView
         android:id="@+id/dong_y"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="57dp"
-        android:layout_marginTop="497dp"
-        android:text="Tôi đồng ý với các"
-        android:textSize="14dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="477dp"
-        android:checked="true"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="35dp"
+        android:text="@string/register17"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/checkbox"
+        app:layout_constraintTop_toBottomOf="@id/pass_Edittext" />
 
     <TextView
+        android:id="@+id/chinh_sach"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="497dp"
-        android:text=" chính sách"
+        android:layout_marginTop="35dp"
+        android:text="@string/register15"
         android:textColor="#4356B4"
-        android:textSize="14dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/dong_y"
+        app:layout_constraintTop_toBottomOf="@id/pass_Edittext" />
+
+    <TextView
+        android:id="@+id/va"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="35dp"
+        android:text="@string/register16"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/chinh_sach"
+        app:layout_constraintTop_toBottomOf="@id/pass_Edittext" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="244dp"
-        android:layout_marginTop="497dp"
-        android:text=" và"
-        android:textSize="14dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="265dp"
-        android:layout_marginTop="497dp"
-        android:text="  điều khoản"
+        android:layout_marginTop="35dp"
+        android:text="@string/register14"
         android:textColor="#4356B4"
-        android:textSize="14dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@id/va"
+        app:layout_constraintTop_toBottomOf="@id/pass_Edittext" />
+
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
         android:paddingTop="@dimen/dimen_16"
         android:paddingBottom="@dimen/dimen_16"
-        android:text="Đăng ký"
-        app:cornerRadius="16dp"
+        android:text="@string/register"
+        android:fontFamily="@font/Lato_Bold"
+        app:cornerRadius="30dp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -166,21 +175,17 @@
             android:id="@+id/co_tk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:text="Đã có tài khoản?"
+            android:text="@string/register12"
             android:textColor="#999999"
-            android:textSize="14dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="  Đăng nhập ngay"
+            android:text="@string/register13"
             android:textColor="#4356B4"
-            android:textSize="14dp"
-            android:layout_toRightOf="@id/co_tk"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/co_tk"
+            />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

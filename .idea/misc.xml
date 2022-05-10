@@ -4,21 +4,38 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/bg_1.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/bg_2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/bg_3.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/bg_4.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/bg_search.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic.search.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_back.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_capacity.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_cellular_connection.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_email.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_group.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_mail.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_mail2.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_mail__2__1__1_.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_mail__3__1.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_man.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_message.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_search.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector1.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector2.xml" value="0.26205128205128203" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector__1_.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector__2_.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector__5_.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/ic_vector__7_.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/icon.xml" value="0.24351851851851852" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/demo.xml" value="0.25" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout1.xml" value="0.25" />
         <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_dky.xml" value="0.25" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/layout_tinnhan.xml" value="0.264" />
+        <entry key="..\:/Users/84978/AndroidStudioProjects/MyApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24791666666666667" />
       </map>
     </option>
   </component>

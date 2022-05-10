@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="register">Đăng Ký</string>
+    <string name="register2">Họ và tên</string>
+    <string name="register3">Email</string>
+    <string name="register4">Mật khẩu</string>
+    <string name="register5">Trải nghiệm Awesome chat!</string>
+    <string name="register6">Đăng nhập</string>
+    <string name="register7">Your email</string>
+    <string name="register8">Your password</string>
+    <string name="register9">Quên mật khẩu</string>
+    <string name="register10">Chưa có tài khoản</string>
+    <string name="register11">Đăng ký ngay</string>
+    <string name="register12">Đã có tài khoản</string>
+    <string name="register13">Đăng nhập ngay</string>
+    <string name="register14"> diều khoản</string>
+    <string name="register15"> chính sách</string>
+    <string name="register16"> và</string>
+    <string name="register17">Tôi đồng ý với các</string>
+    <string name="register18">awesomechat@gmail.com</string>
+    <string name="register19">Awesome Chat</string>
+    <string name="register20">**********</string>
+    <string name="register21">Tin nhắn</string>
+    <string name="register22">Bạn bè</string>
+    <string name="register23">Trang cá nhân</string>
+    <string name="register24">Tìm kiếm tin nhắn</string>
+
+
 </resources>
